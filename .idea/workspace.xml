@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="708a9fa8-0035-41b8-9861-7d158d0a6689" name="Default" comment="" />
+    <list default="true" id="708a9fa8-0035-41b8-9861-7d158d0a6689" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/BasicWebCrawler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/CompositeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/CrawlData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/CrawlDataProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/shell/DocRank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/ranking/DocRankMatrixBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/DocumentFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/utils/DocumentIdUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/common/DocumentParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/common/DocumentParserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/common/DocumentParserFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/ElementNodeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/shell/FetchAndProcessCrawler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/db/FetchedDocsDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/model/FetchedDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/file/FileTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/file/FileTransportException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/utils/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/HTMLDocumentParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/HTMLDocumentParserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/HTMLWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/http/HTTPTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/http/HTTPTransportException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/http/HTTPUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/db/KnownUrlDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/model/KnownUrlEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/LinkNodeFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/lucene/LuceneIndexBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/shell/LuceneIndexer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/msword/MSWordDocumentParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/msword/MSWordDocumentParserException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/MultiFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/MySearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/shell/MySearcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/model/Outlink.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/db/PageLinkDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/PageRank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/shell/PageRank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/PageRankMatrixBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/ranking/PageRankMatrixBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/PageRankMatrixH.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/ranking/PageRankMatrixH.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/db/ProcessedDocsDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/model/ProcessedDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/Rank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/ranking/Rank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/ranking/RelevanceScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/data/SearchResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/common/Transport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/transport/common/TransportException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/URLFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/URLNormalizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/utils/UrlGroup.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/utils/UrlUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/clicks/UserClick.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/clicks/UserQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PageRank/ValueToIndexMapping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/ch2/webcrawler/utils/ValueToIndexMapping.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Tuting.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,47 +124,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Crawler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/web/crawler/Crawler.java">
+      <file leaf-file-name="PageRankMatrixH.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PageRank/PageRankMatrixH.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="12" selection-start="511" selection-end="531" vertical-scroll-proportion="0.61574805" vertical-offset="0" max-vertical-offset="1122">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="46" column="29" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleCrawler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/crawler/SimpleCrawler.java">
+      <file leaf-file-name="Rank.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PageRank/Rank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="365" column="41" selection-start="11796" selection-end="11796" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="6664">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#451#467#0" expanded="true" />
-                <element signature="e#551#559#0" expanded="true" />
-                <element signature="e#639#647#0" expanded="true" />
-                <element signature="e#768#776#0" expanded="true" />
-                <element signature="e#4530#4531#0" expanded="true" />
-                <element signature="e#4572#4573#0" expanded="true" />
-                <element signature="e#11360#11361#0" expanded="true" />
-                <element signature="e#11389#11390#0" expanded="true" />
-                <element signature="e#11507#11508#0" expanded="true" />
-                <element signature="e#11538#11539#0" expanded="true" />
-                <element signature="e#11585#11586#0" expanded="true" />
-                <element signature="e#11619#11620#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnotherCrawler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1190">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="174" column="23" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.33333334" vertical-offset="2621" max-vertical-offset="4063">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,6 +149,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -123,6 +159,10 @@
         <option value="$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java" />
         <option value="$PROJECT_DIR$/src/web/crawler/Main.java" />
         <option value="$PROJECT_DIR$/src/web/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/PageRank/Transition.java" />
+        <option value="$PROJECT_DIR$/src/PageRank/ValueToIndexMapping.java" />
+        <option value="$PROJECT_DIR$/src/PageRank/PageRankMatrixH.java" />
+        <option value="$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/HTMLWriter.java" />
       </list>
     </option>
   </component>
@@ -151,15 +191,13 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,6 +230,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="crawler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -210,16 +252,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crawler" />
+              <option name="myItemId" value="Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AnotherCrawler.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="ch2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tuting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PageRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +303,16 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PageRank" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Davliatov\IdeaProjects\Tuting\src\Search" />
+      <recent name="C:\Users\Davliatov\IdeaProjects\Tuting\src\PageRank" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Crawler">
     <configuration default="false" name="Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -481,31 +553,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -529,9 +601,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java">
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1190">
+        <state line="19" column="34" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -540,31 +612,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/crawler/SimpleCrawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="365" column="41" selection-start="11796" selection-end="11796" vertical-scroll-proportion="0.0" vertical-offset="2119" max-vertical-offset="6664">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#451#467#0" expanded="true" />
-            <element signature="e#551#559#0" expanded="true" />
-            <element signature="e#639#647#0" expanded="true" />
-            <element signature="e#768#776#0" expanded="true" />
-            <element signature="e#4530#4531#0" expanded="true" />
-            <element signature="e#4572#4573#0" expanded="true" />
-            <element signature="e#11360#11361#0" expanded="true" />
-            <element signature="e#11389#11390#0" expanded="true" />
-            <element signature="e#11507#11508#0" expanded="true" />
-            <element signature="e#11538#11539#0" expanded="true" />
-            <element signature="e#11585#11586#0" expanded="true" />
-            <element signature="e#11619#11620#0" expanded="true" />
-          </folding>
+        <state line="365" column="41" selection-start="11796" selection-end="11796" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="6664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1190">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/crawler/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="511" selection-end="531" vertical-scroll-proportion="0.61574805" vertical-offset="0" max-vertical-offset="1122">
+        <state line="30" column="58" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="181" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/SimpleCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="365" column="41" selection-start="11796" selection-end="11796" vertical-scroll-proportion="0.0" vertical-offset="334" max-vertical-offset="6664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/AnotherCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/SimpleCrawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="365" column="41" selection-start="11796" selection-end="11796" vertical-scroll-proportion="0.0" vertical-offset="2119" max-vertical-offset="6664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/ValueToIndexMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/ch2/webcrawler/parser/html/HTMLWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="276" selection-end="276" vertical-scroll-proportion="0.14166667" vertical-offset="0" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/web/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="34" selection-start="389" selection-end="389" vertical-scroll-proportion="0.16770834" vertical-offset="162" max-vertical-offset="1122">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/PageRank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="72" selection-end="72" vertical-scroll-proportion="0.07083333" vertical-offset="0" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/MySearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="651" selection-end="651" vertical-scroll-proportion="-0.478125" vertical-offset="527" max-vertical-offset="4369">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/PageRankMatrixBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="504" selection-end="504" vertical-scroll-proportion="0.13229166" vertical-offset="26" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/PageRankMatrixH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="29" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageRank/Rank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="23" selection-start="5409" selection-end="5409" vertical-scroll-proportion="0.33333334" vertical-offset="2621" max-vertical-offset="4063">
+          <folding />
         </state>
       </provider>
     </entry>
